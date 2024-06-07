@@ -26,7 +26,7 @@ public:
         box t;
         t.l = -- l;
         t.w = --w;
-        t.h = --h;
+        t.h = h--;
         return t; 
     }
 };
