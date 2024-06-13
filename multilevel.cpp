@@ -11,7 +11,7 @@ class base{
 }
 };
 
-class ABC{
+class ABC: public base{
     protected:
     int b;
     public:
